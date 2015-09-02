@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- *
- * 
- */
 public abstract class SecuritySubject {
   
   String name = null;
@@ -31,7 +21,5 @@ public abstract class SecuritySubject {
   }
   
   abstract int run();
-  
-  
   
 }
