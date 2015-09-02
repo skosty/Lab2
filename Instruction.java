@@ -1,16 +1,6 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.util.List;
 import java.util.StringTokenizer;
 
-/**
- *
- *
- */
 public class Instruction {
 
   public static final Instruction BadInstruction = new Instruction("BadInstruction", null, null);
