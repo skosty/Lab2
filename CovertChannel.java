@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,16 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 
-/**
- *
- * @author danhurwitz
- */
 public class CovertChannel {
 
-  /**
-   * @param args the command line arguments
-   */
-  
   private static ReferenceMonitor rm = new ReferenceMonitor();
   
   public static void main(String[] args) throws FileNotFoundException  {
