@@ -1,13 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-/**
- *
- * 
- */
 public class SecurityLevel {
   
   static final SecurityLevel HIGH = new SecurityLevel();
@@ -21,7 +11,5 @@ public class SecurityLevel {
     if(a == HIGH && b == LOW) return true; 
     else return false; 
   } // end dominates 
-  
-  
   
 }
