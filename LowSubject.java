@@ -1,18 +1,8 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- *
- * @author danhurwitz
- */
 public class LowSubject extends SecuritySubject {
   
   File outputFile;
@@ -30,7 +20,6 @@ public class LowSubject extends SecuritySubject {
   }
   
   public int run(){
-//    System.out.println("Banannanananananananananannanananans!!!!!!!!!!!!!!!!!!!!!");
 //    System.out.println(this.getTEMP());
     
     word += this.getTEMP()*(int)Math.pow(2, digit);
@@ -63,6 +52,5 @@ public class LowSubject extends SecuritySubject {
     // If byte is full, write to file. 
     return 0;
   }
-  
   
 }
